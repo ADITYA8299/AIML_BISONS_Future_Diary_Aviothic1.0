@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*  navigation  */
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    box-shadow: 5px 10px 20px #012331;
+    background-color: rgb(244, 241, 241);
+    z-index: 11;
+}
+
+.navi
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navi img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 2rem;
+}
+
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.navi ul a{
+    color: blue;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
+.navi ul a:hover{
+    color: yellow;
+}
+
+
+/*  head  */
+
+.head{
+    margin-top: 5.2rem;
+    height: 35rem;
+    background-color: aqua;
+    position: relative;
+}
+
+.head img{
+    height: 35rem;
+    width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.text p{
+    font-size: 5rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.about{
+    height: 35rem;
+    background-color: rgb(245, 229, 229);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.box1 p{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.box2{
+    background-color: #014275;
+    margin: 3rem;
+    box-shadow: 5px 10px 20px #012331;
+}
+
+.box2 h1{
+    color: rgb(234, 160, 23);
+    margin: 2rem;
+    font-size: 2.4rem;
+    font-weight: 1000;
+}
+
+.box2 ul{
+    margin: 2rem;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-family: 500;
+}
+
+.box2 ul li{
+    color: aqua;
+}
+
+.found{
+    height:  38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.found h1{
+    padding: 0 0 2rem 0;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.found p{
+    font-size: 1.4rem;
+    margin: 1rem 10rem 1rem 10rem;
+}
+
+.team{
+    margin: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.found h2{
+    margin: 1rem 20px;
+    color: navy;
+    font-weight: bold;
+}
+
+.found h4{
+    margin: 1rem 14px;
+    font-weight: 1000;
+}
+
+.found h3{
+    margin: 1rem 14px;
+}
+
+.shadab{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.aditya{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.arihant{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.devika{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.found img{
+    width: 19rem;
+    height: 15rem;
+}
+
+/*  footer  */
+
+footer{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    height: 25rem;
+    background-color: #ebdec6;
+    border-radius: 10rem 10rem 0 6rem;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.foot p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.pre a{
+    color: rgb(17, 17, 17);
+}
+
+.foot h2{
+    font-size: 1.2rem;
+    color: rgb(17, 17, 17);
+}
+
+.pre4{
+    text-align: center;
+    margin-top: 4rem;
+}

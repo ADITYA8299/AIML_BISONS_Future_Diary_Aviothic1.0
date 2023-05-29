@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*  navigation  */
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    box-shadow: 5px 10px 20px #012331;
+    background-color: rgb(244, 241, 241);
+    z-index: 11;
+}
+
+.navi
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navi img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 2rem;
+}
+
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.navi ul a{
+    color: blue;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
+.navi ul a:hover{
+    color: yellow;
+}
+
+/*   intro   */
+
+.intro{
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 5.6rem;
+    background-color: rgb(249, 247, 247);
+}
+
+.content h1{
+    margin-top: 4rem;
+    margin-left: 20px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.content p{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-left: 20px;
+}
+
+.btn{
+    margin-top: 4rem;
+    margin-left: 20px;
+    padding: 1.5rem 2rem;
+    background-color: red;
+    width: 16rem;
+    border-radius: 20px 50px;
+}
+
+.btn a{
+    font-style: italic;
+    color: aqua;
+    transition: all 400ms ease;
+}
+
+.btn a:hover{
+    color: yellow;
+}
+
+.photo img{
+    width: 100%;
+    height: 35rem;
+}
+
+
+/*   career   */
+
+.career{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin: 5rem;
+    border: 15px solid black;
+    border-radius: 20px 20px;
+    height: 54rem;
+    padding: 2rem;
+    box-shadow: 5px 10px 40px #012331;
+}
+
+.word{
+    display: flex;
+    flex-direction: column;
+}
+
+.word h1{
+    margin-top: 2rem;
+    margin-left: 20px;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: darkblue;
+    margin-bottom: 1rem;
+}
+
+.word h2{
+    margin-left: 40px;
+    font-weight: 1000;
+    font-size: 4rem;
+}
+
+.word p{
+    margin: 1rem 10px 1rem 20px;
+    font-size: 1.5rem;
+}
+
+.teach{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#img1{
+    width: 20rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+#img2{
+    width: 30rem;
+    border-radius: 20px;
+}
+
+#img3{
+    margin-top: 1rem;
+    margin-left: 18rem;
+    width: 19rem;
+    border-radius: 20px;
+}
+
+/*  courses  */
+
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    height: 40rem;
+    box-shadow: 5px 10px 40px #012331;
+}
+
+.course h1{
+    text-align: center;
+    padding: 0 0 4rem 0;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: 1rem;
+}
+
+.sub p{
+    font-size: 2rem;
+    color: navy;
+    transition: all 400ms ease;
+}
+
+.sub p:hover{
+    color: red;
+}
+
+.cs img{
+    width: 25rem;
+}
+
+.ai img{
+    width: 25rem;
+}
+
+.cyber img{
+    width: 25rem;
+}
+
+/*   FOUNDERS   */
+
+.found{
+    height:  38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.found h1{
+    padding: 0 0 2rem 0;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.found p{
+    font-size: 1.4rem;
+    margin: 1rem 10rem 1rem 10rem;
+}
+
+.team{
+    margin: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.found h2{
+    margin: 1rem 20px;
+    color: navy;
+    font-weight: bold;
+}
+
+.found h4{
+    margin: 1rem 14px;
+    font-weight: 1000;
+}
+
+.found h3{
+    margin: 1rem 14px;
+}
+
+.shadab{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.aditya{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.arihant{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.devika{
+    box-shadow: 5px 10px 40px #012331;
+    border-radius: 20px;
+}
+
+.found img{
+    width: 19rem;
+    height: 15rem;
+}
+
+/*  footer  */
+
+footer{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    height: 25rem;
+    background-color: #ebdec6;
+    border-radius: 10rem 10rem 0 6rem;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.foot p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.pre a{
+    color: rgb(17, 17, 17);
+}
+
+.foot h2{
+    font-size: 1.2rem;
+    color: rgb(17, 17, 17);
+}
+
+.pre4{
+    text-align: center;
+    margin-top: 4rem;
+}

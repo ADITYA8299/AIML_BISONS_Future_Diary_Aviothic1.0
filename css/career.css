@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*  navigation  */
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    box-shadow: 5px 10px 20px #012331;
+    background-color: rgb(244, 241, 241);
+    z-index: 11;
+}
+
+.navi
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navi img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 2rem;
+}
+
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.navi ul a{
+    color: blue;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
+.navi ul a:hover{
+    color: yellow;
+}
+
+/*  head  */
+
+.head{
+    margin-top: 6.4rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.box1{
+    margin: 3rem;
+}
+
+.box1 h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: darkblue;
+}
+
+.box1 p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.box2{
+    margin-bottom: 2rem;
+}
+
+.box2 img{
+    margin: 1rem;
+    box-shadow: 5px 10px 10px black;
+}
+
+.box3{
+    margin-top: 6rem;
+}
+
+.box3 img{
+    margin: 1rem;
+    box-shadow: 5px 10px 10px black;
+}
+
+.head img{
+    height: 15rem;
+    width: 23rem;
+}
+
+/*   Experties */
+
+h2{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top:  3rem;
+    color: darkblue;
+    margin-bottom: 4rem;
+}
+
+.prof1{
+    height: 20rem;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.name1{
+    background-color: rgb(236, 222, 222);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px rgb(39, 36, 36);
+}
+
+.cont{
+    margin: 1rem;
+}
+
+.cont h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(244, 162, 10);
+    margin-bottom: 1rem;
+}
+
+.cont p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.cont h3{
+    margin: .7rem 0 .7rem 0;
+}
+
+.btn{
+    margin-top: 4rem;
+    margin-left: 20px;
+    padding: 1.5rem 2rem;
+    background-color: red;
+    width: 16rem;
+    border-radius: 20px 50px;
+}
+
+.btn a{
+    font-style: italic;
+    color: aqua;
+    transition: all 400ms ease;
+}
+
+.btn a h4{
+    font-size: 1.5rem;
+}
+
+.btn a:hover{
+    color: yellow;
+}
+
+
+.name1 img{
+    width: 22rem;
+    height: 16rem;
+    margin: 2rem 0;
+}
+
+/*  prof2 */
+
+
+.prof2{
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin-top: 12rem;
+}
+
+.name2{
+    background-color: rgb(236, 222, 222);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px rgb(39, 36, 36);
+}
+
+.name2 img{
+    width: 22rem;
+    height: 16rem;
+    margin: 2rem 0;
+}
+
+/*  prof3 */
+
+.prof3{
+     height: 20rem;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 8rem;
+}
+
