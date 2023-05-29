@@ -137,3 +137,13 @@ nav{
     gap: 2rem;
     margin-left: 3.5rem;
 }
+
+.subject p{
+    font-size: 2rem;
+    color: navy;
+    transition: all 400ms ease;
+}
+
+.subject .ai img{
+    width: 25rem;
+}
